@@ -1,0 +1,31 @@
+.tableBody {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  background-color: whitesmoke;
+}
+
+.tableHead {
+  height: 50px;
+}
+
+.tableHead th {
+  background-color: #689eaf;
+}
+
+.tableRow {
+  height: 50px;
+}
+.tableRow:nth-child(2n + 1) {
+  background-color: lightsteelblue;
+}
+
+.tableRow:nth-child(2n) {
+  background-color: powderblue;
+}
+
+.tableRow td {
+  text-align: center;
+}

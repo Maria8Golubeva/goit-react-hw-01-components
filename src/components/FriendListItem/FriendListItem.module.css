@@ -1,0 +1,36 @@
+.status {
+  display: block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.online {
+  composes: status;
+  background-color: greenyellow;
+}
+
+.offline {
+  composes: status;
+  background-color: tomato;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+
+  padding: 10px 0;
+  margin: 10px;
+  min-width: 200px;
+  border-radius: 5px;
+
+  background-color: #cfe9ef;
+  font-weight: bold;
+  color: black;
+}
+
+.item:hover {
+  background-color: #689eaf;
+}
