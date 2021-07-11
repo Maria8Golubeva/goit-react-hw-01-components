@@ -3,12 +3,12 @@
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 300px;
   background-color: whitesmoke;
 }
 
 .tableHead {
-  height: 50px;
+  height: 30px;
 }
 
 .tableHead th {
@@ -16,7 +16,7 @@
 }
 
 .tableRow {
-  height: 50px;
+  height: 30px;
 }
 .tableRow:nth-child(2n + 1) {
   background-color: lightsteelblue;

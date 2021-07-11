@@ -2,7 +2,7 @@
   background-color: #cfe9ef;
   width: 300px;
   margin: 20px;
-  border: 2px solid gray;
+  border: 2px solid #c8fdf5;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -10,18 +10,18 @@
 
 .avatar {
   display: block;
-  max-width: 200px;
+  max-width: 150px;
   height: auto;
 
   border-radius: 50%;
-  background-color: lightgrey;
+  background-color: #c8fdf5;
 }
 
 .description {
   padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 150px;
 }
 
 .name {
@@ -57,7 +57,7 @@
   align-items: center;
   max-width: 100px;
   flex-grow: 1;
-  height: 100px;
+  height: 70px;
   background-color: #c8fdf5;
   border-top: 1px solid lightgrey;
   border-bottom-left-radius: 10px;
